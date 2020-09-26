@@ -1,0 +1,15 @@
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\bin\Debug\NewWPF.exe.config
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\bin\Debug\NewWPF.exe
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\bin\Debug\NewWPF.pdb
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.csprojAssemblyReference.cache
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\MainWindow.g.cs
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\App.g.cs
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF_MarkupCompile.cache
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF_MarkupCompile.lref
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\MainWindow.baml
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.g.resources
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.Properties.Resources.resources
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.csproj.GenerateResource.cache
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.csproj.CoreCompileInputs.cache
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.exe
+D:\уроки\C#\C# 3\1\Test\WPFNew\NewWPF\NewWPF\obj\Debug\NewWPF.pdb
