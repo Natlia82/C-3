@@ -5,32 +5,57 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NewWPF"
         mc:Ignorable="d"
-        Title="Отправка почты" Height="248" Width="759" FontSize="14" FontWeight="Bold" FontStyle="Italic">
+        Title="Отправка почты" Height="350" Width="875" FontSize="14" FontWeight="Bold" FontStyle="Italic">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="429*"/>
-            <ColumnDefinition Width="51*"/>
-            <ColumnDefinition Width="63*"/>
-            <ColumnDefinition Width="209*"/>
-            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="109*"/>
+            <ColumnDefinition Width="108*"/>
+
         </Grid.ColumnDefinitions>
-        <Button Content="Отправить письмо" HorizontalAlignment="Left" Margin="109,117,0,0" VerticalAlignment="Top" Width="170" Height="53" FontSize="14" FontWeight="Bold" FontStyle="Italic" Click="buttonClick">
+        <Button Content="Отправить письмо" HorizontalAlignment="Left" Margin="104,140,0,0" VerticalAlignment="Top" Width="170" Height="53" FontSize="14" FontWeight="Bold" FontStyle="Italic" Click="buttonClick" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF707070" BorderThickness="2" Grid.Column="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.024"/>
+                    <RotateTransform Angle="-0.331"/>
+                    <TranslateTransform X="0.011"/>
+                </TransformGroup>
+            </Button.RenderTransform>
             <Button.Effect>
                 <DropShadowEffect BlurRadius="20"/>
             </Button.Effect>
         </Button>
-        <TextBox x:Name="LoginName" HorizontalAlignment="Left" Height="31" Margin="11,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="14" FontWeight="Bold">
+        <TextBox x:Name="LoginName" HorizontalAlignment="Left" Height="31" Margin="27,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="14" FontWeight="Bold" Grid.Column="1">
             <TextBox.Effect>
                 <DropShadowEffect BlurRadius="20"/>
             </TextBox.Effect>
         </TextBox>
-        <PasswordBox x:Name="PosswordN" HorizontalAlignment="Left" Margin="280,69,0,0" VerticalAlignment="Top" Height="29" Width="189" Grid.ColumnSpan="2">
-            <PasswordBox.Effect>
+        <TextBlock HorizontalAlignment="Left" Margin="39,17,0,0" TextWrapping="Wrap" Text="Имя пользователя" VerticalAlignment="Top" Height="27" Width="170" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="220,15,0,0" VerticalAlignment="Top" Height="30" Width="185" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.Column="1"/>
+
+        <TextBox x:Name="AdresIn" HorizontalAlignment="Left" Height="30" Margin="42,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256">
+            <TextBox.Effect>
                 <DropShadowEffect BlurRadius="20"/>
-            </PasswordBox.Effect>
-        </PasswordBox>
-        <TextBlock HorizontalAlignment="Left" Margin="13,14,0,0" TextWrapping="Wrap" Text="Имя пользователя" VerticalAlignment="Top" Height="27" Width="170" FontSize="14" FontWeight="Bold" FontStyle="Italic"/>
-        <Label Content="Пароль" HorizontalAlignment="Left" Margin="288,11,0,0" VerticalAlignment="Top" Height="30" Width="185" FontSize="14" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2"/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" Margin="48,122,0,0" TextWrapping="Wrap" Text="Тема письма" VerticalAlignment="Top" RenderTransformOrigin="-3.896,0.027" Height="27" Width="244"/>
+        <TextBlock HorizontalAlignment="Left" Margin="46,32,0,0" TextWrapping="Wrap" Text="Адрес получателя" VerticalAlignment="Top" Width="244" Height="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="53,189,0,0" TextWrapping="Wrap" Text="Текст письма" VerticalAlignment="Top" Height="29" Width="229"/>
+        <TextBox x:Name="topic" HorizontalAlignment="Left" Height="33" Margin="42,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="20"/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="letter" HorizontalAlignment="Left" Height="33" Margin="43,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="20"/>
+            </TextBox.Effect>
+        </TextBox>
+        <TextBox x:Name="Password" Grid.Column="1" HorizontalAlignment="Left" Height="31" Margin="242,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="20"/>
+            </TextBox.Effect>
+        </TextBox>
 
     </Grid>
 </Window>

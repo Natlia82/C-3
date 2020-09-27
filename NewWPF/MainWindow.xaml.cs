@@ -20,6 +20,7 @@ namespace NewWPF
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -29,32 +30,11 @@ namespace NewWPF
 
         private void buttonClick(object sender, RoutedEventArgs e)
         {
-            //формирование письма
+            SendMail sm = new SendMail(LoginName.Text, Password.Text, AdresIn.Text, topic.Text, letter.Text);
+            sm.Primer();
 
-            MailMessage mm = new MailMessage("vagapova_n@mail.ru", "vagapova_n@mail.ru");
-            mm.Subject = "Заголовок письма";
-            mm.Body = "Текст письма";
-            mm.IsBodyHtml = false; // Не используем html в теле письма
-
-
-            // Авторизуемся на smtp-сервере и отправляем письмо
-            SmtpClient sc = new SmtpClient("smtp.mail.ru", 25);
-            sc.EnableSsl = true;
-            sc.DeliveryMethod = SmtpDeliveryMethod.Network;
-            sc.UseDefaultCredentials = false;
             
-            sc.Credentials = new NetworkCredential(LoginName.Text, PosswordN.SecurePassword);
-            // sc.Send(mm);
-            try
-            {
-                sc.Send(mm);
-                MessageBox.Show("письмо отправлено!!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Невозможно отправить письмо " + ex.ToString());
-            }
-
+            
         }
     }
 }
