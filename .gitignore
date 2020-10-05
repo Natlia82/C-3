@@ -1,0 +1,13 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/NewWPF/v16
+/NewWPF/bin/Debug/NewWPF.exe.config
+/NewWPF/bin/Debug/NewWPF.pdb
+/NewWPF/obj/Debug/*.lref
+/NewWPF/obj/Debug/*.cache
+/NewWPF/obj/Debug/*.pdb
+/NewWPF/obj/Debug/*.*.resources
+/ (2).GITIGNORE
+/NewWPF/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
